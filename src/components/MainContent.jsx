@@ -24,7 +24,7 @@ const MainContent = () => {
         <div className="md:w-1/2 md:ml-5">
           <img
             src="https://www.ecoyaan.com/images/Impact.png"
-            alt=""
+            alt=" impact image"
             className="w-full md:w-auto  hover:scale-105 transition-transform duration-300"
           />
         </div>
@@ -80,7 +80,7 @@ const MainContent = () => {
         <div className="md:w-1/2 md:ml-5">
           <img
             src="https://ecoyaan.com/images/OurStory4.png"
-            alt=""
+            alt="our story image"
             className="w-full md:w-auto hover:scale-105 transition-transform duration-300"
           />
         </div>

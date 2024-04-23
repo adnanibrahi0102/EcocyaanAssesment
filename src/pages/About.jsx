@@ -8,14 +8,16 @@ const About = () => {
       role: "SOCIAL MEDIA",
       description:
         "Shruthi is in charge of our Instagram. She is a practising Vegan and cares deeply about sustainability. Follow her small business here",
-      imgSrc: "https://www.ecoyaan.com/images/about-us-social-media-team-01.png",
+      imgSrc:
+        "https://www.ecoyaan.com/images/about-us-social-media-team-01.png",
     },
     {
       name: "Urmil",
       role: "SOCIAL MEDIA",
       description:
         "Urmil creates engaging content for us. She runs her own sustainable apparel store with her sister and advocates for slow fashion. Check out her business here",
-      imgSrc: "https://www.ecoyaan.com/images/about-us-social-media-team-02.png",
+      imgSrc:
+        "https://www.ecoyaan.com/images/about-us-social-media-team-02.png",
     },
     {
       name: "Divya",
@@ -45,7 +47,7 @@ const About = () => {
       imgSrc: "https://www.ecoyaan.com/images/favicon.png",
     },
   ];
-  
+
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="flex flex-col md:flex-row items-center justify-between">
@@ -155,12 +157,12 @@ const About = () => {
         <div className="md:w-1/2">
           <img
             src="https://ecoyaan.com/images/about-us-founding-team-01.png"
-            alt=""
+            alt=" team founder"
             className="w-48 h-48"
           />
           <img
             src="https://ecoyaan.com/images/about-us-founding-team-02.png"
-            alt=""
+            alt="team founder"
             className="w-48 h-48 mt-4 md:mt-0"
           />
         </div>
@@ -218,7 +220,13 @@ const About = () => {
       <h1 className="text-3xl font-bold my-8">Our Team</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-6">
         {teamData.map((member, index) => (
-          <Card key={index} name={member.name} role={member.role} description={member.description} imgSrc={member.imgSrc} />
+          <Card
+            key={index}
+            name={member.name}
+            role={member.role}
+            description={member.description}
+            imgSrc={member.imgSrc}
+          />
         ))}
       </div>
     </div>
@@ -226,5 +234,3 @@ const About = () => {
 };
 
 export default About;
-
-
